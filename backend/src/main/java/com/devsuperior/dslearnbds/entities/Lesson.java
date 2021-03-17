@@ -29,7 +29,7 @@ public abstract class Lesson implements Serializable {
 	private Integer position;
 	
 	@ManyToOne
-	@JoinColumn(name = "lesson_id")
+	@JoinColumn(name = "section_id")
 	private Section section;
 	
 	@ManyToMany
